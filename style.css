@@ -1,0 +1,91 @@
+@font-face{
+    font-family: 'Departure Mono';
+    src: url('assets/fonts/DepartureMono-Regular.woff2') format('woff2'),
+         url('assets/fonts/DepartureMono-Regular.woff') format('woff');
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    --clearshade:#7ECBF6;
+    --strongshade: #332EFF;
+}
+
+#inicio{
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: black;
+    z-index: 10;
+
+    background-image: url('assets/robotgamemainmenu.png'); 
+    background-size: cover;                    
+    background-position: center center;     
+    background-repeat: no-repeat;             
+    image-rendering: pixelated;
+}
+
+#agrupados{
+    display: inline-grid;
+    padding: 2.5rem;
+    margin-top: 80px;
+    row-gap: 20px;
+    
+}
+
+#btn-jugar{
+    padding: 0.75rem 3rem;
+    font-family: 'Departure Mono';
+    font-size: clamp(1.25rem, 3vw, 2rem);
+    color: white;
+    background-color: var(--strongshade);
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+#btn-jugar:hover{
+    background-color: #7ECBF6;
+    color: black;
+}
+
+#nombre-jugador{
+    padding: 0.5rem 3rem;
+    font-family: 'Departure Mono';
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--strongshade);
+    background-color: transparent;
+    border: 2px solid #49b0ec;
+}
+
+::placeholder {
+  color: #50ace1;
+}
+
+input[type=text]:focus{
+  outline: 2px solid var(--strongshade);
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+#game-container{
+    width: 100%;
+    height: 100%;
+}
+
+canvas{
+    display: block;
+}
