@@ -458,7 +458,7 @@ function crearHUDGuia(escena) {
         "¿Realmente te crees capaz de robarme los datos?\n\n" +
         "[PRESIONA ENTER]",
 
-        "Usar las [FLECHAS] para MOVERTE es impractico pero es lo que hay.\n" +
+        "Usar las [FLECHAS] o [WASD] para MOVERTE es impractico pero es lo que hay.\n" +
         "\n"+
         "Si quisiera arruinarte el progreso bastaria con [PRESIONAR E] para INTERACTUAR con cada uno de los acertijos.\n\n" +
         "[ENTER para cerrar]"
