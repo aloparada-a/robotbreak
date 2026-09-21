@@ -110,7 +110,7 @@ class Minijuegocontra extends Phaser.Scene {
 
         const mensajeTexto = "¡Acceso restringido! JAMÁS creí que llegarías tan lejos\n\n" +
             "Responde cada pregunta escribiendo el resultado en el teclado y presiona ENTER para confirmar.\n\n" +
-            "Son solo 3 preguntas, pero todas te daran el [INICIO] de la verdadera contraseña.\n\n" +
+            "Son solo 3 preguntas, pero todas las [INICIALES] forman parte de la verdadera contraseña.\n\n" +
             "[PRESIONA ENTER para empezar]";
 
         let texto = this.add.text(-160, 5, mensajeTexto, {
