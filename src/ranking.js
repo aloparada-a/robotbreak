@@ -63,7 +63,7 @@ class EscenaRanking extends Phaser.Scene {
         const estilo = { fontFamily: 'Departure Mono', fontSize: '24px', color: '#323BC0' };
 
         
-        this.add.text(610, 80, '¡ESCAPASTE!', { ...estilo, fontSize: '56px', color: '#7fdfff' }).setOrigin(0.5);
+        this.add.text(610, 80, '¡GANASTE!', { ...estilo, fontSize: '56px', color: '#7fdfff' }).setOrigin(0.5);
         this.add.text(750, 160, 'Tu tiempo: ' + formatearTiempo(this.tiempo), estilo).setOrigin(0.5);
         this.add.text(750, 220, '--- MEJORES TIEMPOS ---', { ...estilo, color: '#008FFF' }).setOrigin(0.5);
 
